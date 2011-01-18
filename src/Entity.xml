@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE 员工基本数据[
+	<!ELEMENT 员工基本数据 ANY>
+	<!ENTITY lee_email SYSTEM "lee_email.txt">
+	<!ELEMENT 个别员工数据 ANY>
+	<!ELEMENT 姓名 (#PCDATA)>
+	<!ELEMENT 年龄 (#PCDATA)>
+	<!ELEMENT 性别 (#PCDATA)>
+	<!ELEMENT 地址 (#PCDATA)>
+	<!ELEMENT 电子邮件 (#PCDATA)>
+	<!ELEMENT 电话 (#PCDATA)>
+]>
+
+<员工基本数据>
+	<个别员工数据>
+		<姓名>郑京伟</姓名>
+		<年龄>38</年龄>
+		<性别>男</性别>
+		<地址>福建省龙岩市</地址>
+		<电子邮件>&lee_email;</电子邮件>
+		<电话>(0597)2293582</电话>
+	</个别员工数据>
+	<个别员工数据>
+		<姓名>陈艳艳</姓名>
+		<年龄>37</年龄>
+		<性别>女</性别>
+		<地址>福建省龙岩市</地址>
+		<电子邮件>&lee_email;</电子邮件>
+		<电话>(0597)2209155</电话>
+	</个别员工数据>
+</员工基本数据>

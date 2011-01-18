@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<employees_information>
+	<employee_data>
+		<name>C.Y. Shen</name>
+		<age>34</age>
+		<sex>Male</sex>
+		<address>3, Lane 121, Sec. 1</address>
+		<email>cyshen@ms02.hinet.net</email>
+		<tel>(022)2367807</tel>
+	</employee_data>
+</employees_information>
